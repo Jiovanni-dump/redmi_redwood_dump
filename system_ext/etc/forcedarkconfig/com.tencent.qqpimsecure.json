@@ -1,0 +1,44 @@
+{
+  "packageName": "com.tencent.qqpimsecure",
+  "forceDark": true,
+  "mainRule": 16,
+  "forceDarkActivityConfigList": [
+    {
+      "activityName": "com.tencent.server.fore.QuickLoadActivity",
+      "forceDark": true,
+      "forceDarkViewConfigList": [
+        {
+          "forceDark": true,
+          "viewName": "LottieAnimationView",
+          "usage": 103,
+          "conditions": [
+            {
+              "viewName": "QRelativeLayout",
+              "parent": 0,
+              "index": -1
+            },
+            {
+              "viewName": "QLinearLayout",
+              "parent": 1,
+              "index": -1,
+              "id": "tab_layout"
+            }
+          ]
+        },
+        {
+          "forceDark": true,
+          "viewName": "QRelativeLayout",
+          "usage": 103,
+          "backgroundUsage": 103,
+          "conditions": [
+            {
+              "viewName": "JourneyGuardianView",
+              "parent": 0,
+              "index": -1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
