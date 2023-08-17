@@ -1,0 +1,6 @@
+Acc lsm6dso_0_platform.accel.fac_cal.bias /vendor/etc/sensors/config/sm7350_lsm6dso_0.json 0 lsm6dso
+Gyr lsm6dso_0_platform.gyro.fac_cal.bias /vendor/etc/sensors/config/sm7350_lsm6dso_0.json 0 lsm6dso
+Acc bmi3x0_0_platform.accel.fac_cal.bias /vendor/etc/sensors/config/sm7350_bmi3x0_0.json 0 bmi3x0
+Gyr bmi3x0_0_platform.gyro.fac_cal.bias /vendor/etc/sensors/config/sm7350_bmi3x0_0.json 0 bmi3x0
+Lux stk3a5x_0_platform.als.fac_cal /vendor/etc/sensors/config/sm7350_stk3a5x_0.json 0 stk_stk3a5x
+Prx stk3a5x_0_platform.ps.fac_cal /vendor/etc/sensors/config/sm7350_stk3a5x_0.json 0 stk_stk3a5x
