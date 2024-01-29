@@ -1,0 +1,12 @@
+Device = {L9}
+Version = {1.0.0.0}
+CbSize = {0}
+NumberOfCameras = {2}
+CalibrationType = {1}
+CameraFov = {119, 85.5}
+CameraRatio = {0.6, 1.0}
+MappedFovRatio = {0.0, 0.0}
+MinViewRatio = {0.6}
+ActiveRange = {[0, 0, 3280, 2464], [0, 0, 12000, 9000]}
+SensorOutSize = {[0, 0, 3280, 2464], [0, 0, 6000, 4500]}
+RotationCorrection = {1, 0}
