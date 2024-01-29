@@ -1,0 +1,14 @@
+# missi_phone_global-user 13 TKQ1.221114.001 V14.0.7.0.TMSMIXM release-keys
+- manufacturer: xiaomi
+- platform: lahaina
+- codename: redwood
+- flavor: missi_phone_global-user
+- release: 13
+- id: TKQ1.221114.001
+- incremental: V14.0.7.0.TMSMIXM
+- tags: release-keys
+- fingerprint: Redmi/redwood/redwood:13/RKQ1.211001.001/V14.0.7.0.TMSMIXM:user/release-keys
+- is_ab: true
+- brand: Redmi
+- branch: missi_phone_global-user-13-TKQ1.221114.001-V14.0.7.0.TMSMIXM-release-keys
+- repo: redmi_redwood_dump

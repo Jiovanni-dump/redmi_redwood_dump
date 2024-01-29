@@ -1,0 +1,117 @@
+{
+    "version": "1.0",
+    "product": "redwood",
+    "threshold": {
+            "skip_task": 4,
+            "lowAdj_threshold": 0,
+            "3rd_lowAdj_threshold": 50,
+            "update_state_delay_ms": 5000,
+            "kill_lowprio_sysapp_threshlod": 10240,
+            "intercept_restart_time": 3000,
+            "kill_highprio_sysapp_threshlod": 30720,
+            "skip_task_lower": 1,
+            "protect_locktask_num": 2,
+            "kill_tag": 31,
+            "cam_boost_threshold": 2621440,
+            "3rdcam_boost_threshold": 1363148,
+            "cam_boost_ext_mem": 779457,
+            "update_state_delay_ms": 3000
+        },
+    "support": {
+        "oom_update_support": true,
+        "inhibit_3rdprocs_enable": true,
+        "cam_boost_early_enable": true,
+        "perceptible_support": true,
+        "lmkd_perceptible_support": true,
+        "dynamic_task_proctect_support": true
+        },
+    "oom": {
+            "oom_level": "51200:0,89600:100,128000:200,179200:251,262144:701,393216:800",
+            "psi_level": "30,20,13,8"
+        },
+    "kill_configs": [
+        {
+            "name": "pss_threshold",
+            "config": {
+                "com.tencent.mm": 1024000,
+                "com.miui.gallery": 235520,
+                "com.miui.home": 716800,
+                "com.miui.personalassistant": 512000,
+                "com.miui.miwallpaper": 409600
+            }
+        },
+        {
+            "name": "adj_threshold",
+            "config": {
+                "com.tencent.mm": 250,
+                "com.miui.screenrecorder": 200
+            }
+        }
+    ],
+    "dump_configs": {
+        "system_server": 665600,
+        "/system/bin/surfaceflinger": 563200,
+        "/vendor/bin/hw/vendor.qti.hardware.display.composer-service": 307200,
+        "com.miui.home": 563200,
+        "com.android.systemui": 563200,
+        "com.miui.miwallpaper": 307200
+    },
+    "configs": [
+        {
+            "name": "protect_list",
+            "config": [
+                "com.tencent.mobileqq",
+                "com.ss.android.lark.kami"
+            ]
+        },
+        {
+            "name": "perceptible_list",
+            "config": [
+                "com.tencent.mm",
+                "com.miui.gallery",
+                "com.miui.personalassistant",
+                "com.miui.screenrecorder"
+            ]
+        },
+        {
+            "name": "white_list",
+            "config": [
+                "com.android.camera",
+                "com.miui.miwallpaper",
+                "com.miui.home",
+                "com.tencent.mm:push",
+                "com.tencent.mobileqq:MSF",
+                "com.ss.android.lark.kami:wschannel",
+                "android.process.media",
+                "com.android.traceur",
+                "com.phonetest.application:CameraMemoryWatcher",
+                "android.camera.cts",
+                "android.camera.cts:errorLoggingServiceProcess",
+                "com.miui.avpressuretest"
+            ]
+        },
+        {
+            "name": "inhibit_app_list",
+            "config": [
+                "com.google.android.providers.media.module",
+                "com.android.providers.media.module",
+                "com.google.android.inputmethod.latin",
+                "com.google.android.googlequicksearchbox:search",
+                "com.google.android.gms.persistent",
+                "com.tencent.android.qqdownloader",
+                "com.tencent.android.qqdownloader:cloud",
+                "com.tencent.android.qqdownloader:daemon"
+            ]
+        }
+    ],
+    "oom_6Gmem": {
+            "oom_level": "18432:0,23040:100,27648:200,64512:300,115712:800,216370:900",
+            "psi_level": "30,20,15,10"
+        },
+    "threshold_6Gmem": {
+            "cam_boost_threshold": 1048576,
+            "3rdcam_boost_threshold": 1048576,
+            "update_state_delay_ms": 3000,
+            "skip_task_lower":1
+        }
+}

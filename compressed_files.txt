@@ -1,0 +1,13 @@
+system_ext/apex/com.android.vndk.v30.apex.xz
+system_ext/priv-app/Settings/Settings.apk.xz
+product/data-app/Opera/Opera.apk.xz
+product/app/TrichromeLibrary64/TrichromeLibrary64.apk.xz
+product/priv-app/Messages/Messages.apk.xz
+product/priv-app/Velvet/Velvet.apk.xz
+product/priv-app/Gallery_T_Global/Gallery_T_Global.apk.xz
+product/priv-app/MiuiCamera/MiuiCamera.apk.xz
+product/priv-app/MIBrowserGlobal_builtin_before_2021/MIBrowserGlobal_builtin_before_2021.apk.xz
+product/priv-app/GmsCore/GmsCore.apk.xz
+product/priv-app/ExtraPhotoGlobal/ExtraPhotoGlobal.apk.xz
+modem.img.xz
+boot.img.xz
