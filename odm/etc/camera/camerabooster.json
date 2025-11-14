@@ -1,0 +1,52 @@
+{
+    "version": "1.0",
+    "product": "redwood",
+    "support": {
+            "oom_update_support": true,
+            "inhibit_3rdprocs_enable": true,
+            "inhibit_dynamic_enable": true,
+            "skip_camera_boost": true
+        },
+    "oom": {
+            "oom_level": "18432:0,23040:100,27648:200,64512:300,115712:800,216370:900",
+            "psi_level": "28,20,13,8"
+        },
+    "threshold": {
+            "skip_task": 3,
+            "skip_task_lower": 1,
+            "adj_threshold": 800,
+            "lowAdj_threshold": 0,
+            "cam_boost_threshold": 2097152,
+            "3rdcam_boost_threshold": 1363148,
+            "cam_boost_ext_mem": 768000,
+            "update_state_delay_ms": 3000,
+            "kill_tag": 31,
+            "3rd_skip_task_lower": 1,
+            "3rd_lowAdj_threshold": 0,
+            "dynamic_interval": 10000
+        },
+    "configs": [
+        {
+            "name": "inhibit_app_list",
+            "config": [
+                "com.google.android.providers.media.module",
+                "com.android.providers.media.module",
+                "com.google.android.inputmethod.latin",
+                "com.sohu.inputmethod.sogou.xiaomi",
+                "com.google.android.googlequicksearchbox:search",
+                "com.google.android.gms.persistent"
+            ]
+        }
+    ],
+    "oom_6Gmem": {
+            "oom_level": "18432:0,23040:100,27648:200,85000:250,127500:800,161280:950"
+        },
+    "threshold_6Gmem": {
+            "cam_boost_threshold": 1572864,
+            "3rdcam_boost_threshold": 1363148,
+            "update_state_delay_ms": 3000,
+            "skip_task": 2,
+            "skip_task_lower":1,
+            "3rd_skip_task_lower": 1
+        }
+}
