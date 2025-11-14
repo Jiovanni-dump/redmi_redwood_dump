@@ -1,0 +1,8 @@
+create mireuse_a
+linear 0       917504  /dev/block/by-name/modem_a 0
+linear 917504  393216  /dev/block/by-name/boot_a 0
+linear 1310720 196608  /dev/block/by-name/vendor_boot_a 0
+linear 1507328 131072  /dev/block/by-name/dsp_a 0
+linear 1638400 98304   /dev/block/by-name/imagefv_a 0
+linear 1736704 65536   /dev/block/by-name/mdtp_a 0
+linear 1802240 49152   /dev/block/by-name/dtbo_a 0

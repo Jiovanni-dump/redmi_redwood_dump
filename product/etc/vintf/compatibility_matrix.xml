@@ -1,0 +1,32 @@
+<!--
+    Input:
+        device/xiaomi/redwood/device_framework_compatibility_matrix/cameraperf/vendor_framework_compatibility_matrix.xml
+        device/xiaomi/redwood/device_framework_compatibility_matrix/misecurity/vendor_framework_compatibility_matrix.xml
+        device/xiaomi/redwood/device_framework_compatibility_matrix/uwb/vendor_framework_compatibility_matrix.xml
+-->
+<compatibility-matrix version="7.0" type="framework">
+    <hal format="hidl" optional="true">
+        <name>vendor.xiaomi.hardware.cameraperf</name>
+        <version>1.0</version>
+        <interface>
+            <name>IMiCameraPerfService</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
+        <name>vendor.xiaomi.hardware.misecurity</name>
+        <version>1.0</version>
+        <interface>
+            <name>IMiSecurity</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
+        <name>vendor.xiaomi.uwb</name>
+        <version>1.0</version>
+        <interface>
+            <name>IUwb</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+</compatibility-matrix>
