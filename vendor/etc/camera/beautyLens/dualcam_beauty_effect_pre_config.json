@@ -1,0 +1,50 @@
+{
+  "StructCF0": {
+    "paramB": 0,
+    "paramI": 5,
+    "paramL": 12,
+    "paramD": 11,
+    "paramR": 0.65,
+    "paramBM": 1,
+    "paramBS": 0,
+    "paramSI": 3,
+    "paramSW": 0.6,
+    "paramST": 25
+  },
+  "StructCF1": {
+    "paramB": 0,
+    "paramI": 5,
+    "paramL": 12,
+    "paramD": 1,
+    "paramR": 0.85,
+    "paramBM": 1,
+    "paramBS": 0,
+    "paramSI": 3,
+    "paramSW": 0.6,
+    "paramST": 25
+  },
+  "StructCF2": {
+    "paramB": 0,
+    "paramI": 5,
+    "paramL": 12,
+    "paramD": 2,
+    "paramR": 0.85,
+    "paramBM": 1,
+    "paramBS": 0,
+    "paramSI": 3,
+    "paramSW": 0.6,
+    "paramST": 25
+  },
+  "StructCF3": {
+    "paramB": 0,
+    "paramI": 5,
+    "paramL": 12,
+    "paramD": 2,
+    "paramR": 0.85,
+    "paramBM": 1,
+    "paramBS": 0,
+    "paramSI": 3,
+    "paramSW": 0.6,
+    "paramST": 25
+  }
+}
